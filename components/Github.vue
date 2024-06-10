@@ -1,6 +1,6 @@
 <template>
   <a
-    href="https://github.com/fayazara/logspot"
+    href="https://github.com/solynhoo/Solyn.learn"
     target="_blank"
     rel="noopener noreferrer"
     class="fixed rounded-full h-10 w-10 bg-slate-900 bottom-4 right-4 flex items-center justify-center z-50"

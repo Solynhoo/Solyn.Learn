@@ -2,9 +2,9 @@ import { computed } from "vue";
 
 /**
  *
- * @param {*} el_target_ref The Root element for which clicking outside will trigger callback_fn
- * @param {*} on_click_outside The function to call when user clicks outside of
- * @param {Function} callback_condition Function, if provided, returns boolean indication if click outside should be allowed to happen
+ * @param {*} el_target_ref
+ * @param {*} on_click_outside
+ * @param {Function} callback_condition 
  * @returns
  */
 export async function useClickOutside(

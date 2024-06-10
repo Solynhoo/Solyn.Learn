@@ -1,20 +1,19 @@
 <template>
   <article class="md:flex">
     <h2 class="content-date h-full mt-px">
-      <a href="#2022-06-23">{{ content.date }}</a>
+      <p>{{content.date }}</p>
     </h2>
     <div class="content-block">
       <div class="feed-border"></div>
       <div class="feed-dot"></div>
       <badge
-        :label="`v ${content.version}`"
+        :label="`${content.version}`"
         class="absolute -top-6 right-0 md:static mb-4"
       />
       <h1 v-if="content.title" class="text-xl sm:text-3xl font-bold mb-4">
         {{ content.title }}
       </h1>
       <ContentRenderer :value="content" class="document" />
-      <Authors v-if="content.authors" :authors="content.authors" />
     </div>
   </article>
 </template>
