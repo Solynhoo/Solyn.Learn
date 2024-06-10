@@ -32,7 +32,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: "#0ea5e9",
+        primary: "#f55a42",
       },
     },
   },
